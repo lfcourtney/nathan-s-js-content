@@ -1,20 +1,33 @@
 # JavaScript Learning Challenges
 
-A collection of 12 JavaScript coding challenges designed to help you learn and practice JavaScript fundamentals.
+A collection of JavaScript coding challenges designed to help you learn and practice JavaScript fundamentals.
 
 ## Getting Started
 
 1. Clone this repository
-2. Install dependencies: `npm install`
-3. Run tests: `npm test`
+
+```bash
+git clone https://github.com/nldblanch/js-content.git
+```
+
+2. Open in VSCode (or other editor)
+3. Install dependencies: 
+```bash
+npm install
+```
+4. Run tests: 
+```bash
+npm test
+```
 
 ## Challenges
 
 Each challenge is in its own directory with:
 
-- A `README.md` with instructions
-- A starter `.js` file
+- A `README.md` with instructions. Always start here!
+- A starter `.js` file. This is where you write your code. 
 - Test files to verify your solution
+- Other instructions and guided walkthroughs. Always refer to the README first.
 
 ### Challenge List
 
@@ -41,8 +54,34 @@ Each challenge is in its own directory with:
 
 ## Testing
 
-- Run all tests: `npm test`
-- Run tests in watch mode: `npm run test:watch`
-- Run tests with coverage: `npm run test:coverage`
+### Run all tests: 
+```bash
+npm test
+```
+_The npm commands `test` and `start` are special - you can run them as shown without `run`._
 
-Happy coding! 🚀
+_You can also shorten this command to `npm t`._
+
+### Run test by filename
+You can run the tests of a specific test by including the filename.
+```bash
+npm test temperature.test.js
+```
+### Run tests by pattern
+Pass a pattern to run only matching tests. Examples:
+
+- Match a short pattern (matches `race.test.js` and `rockPaperScissors.test.js`):
+```bash
+npm test r
+```
+
+- Run all tests in challenge 1 (Temperature):
+```bash
+npm test 1
+```
+
+### Run tests in watch mode: 
+```bash
+npm run test:watch
+```
+_Other npm scripts (those with custom names) must be invoked with `npm run <script>`._

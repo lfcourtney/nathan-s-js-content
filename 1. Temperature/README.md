@@ -6,8 +6,6 @@ Create a temperature converter that can convert between Celsius and Fahrenheit u
 
 ## Learning Goals
 
-- Practice TDD methodology
-- Understand temperature conversion formulas
 - Work with JavaScript functions and mathematical operations
 - Learn to write clean, testable code
 
@@ -26,13 +24,13 @@ Create a temperature converter that can convert between Celsius and Fahrenheit u
 1. Read `instructions.md` for detailed, beginner-friendly instructions
 2. Build your solution step by step
 3. Test with `npm test` when ready
+4. As you progress, remove `.skip` from the `describe` blocks to add more tests.
 
 ### Option 2: Practice Test-Driven Development
 
-1. Read `TDD_GUIDE.md` to understand TDD methodology
-2. Start with the first test by removing `.skip`
-3. Write minimal code to make it pass
-4. Gradually add more tests and functionality
+1. Write the code to pass the tests
+2. Remove `.skip` blocks from `describe` blocks.
+3. Add functionality until all tests pass.
 
 ## Example Usage
 
@@ -46,28 +44,13 @@ fahrenheitToCelsius(212); // Returns 100
 ## Files in This Challenge
 
 - `instructions.md` - Step-by-step tutorial approach
-- `TDD_GUIDE.md` - Test-driven development guide
 - `temperature.js` - Your solution file
 - `temperature.test.js` - Test suite with incremental challenges
-
-## Running Tests
-
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode (reruns on file changes)
-npm run test:watch
-
-# Run tests with coverage report
-npm run test:coverage
-```
 
 ## Hints
 
 - Start with the basic conversions (0°C, 100°C)
 - Remember that -40°C = -40°F (same temperature!)
-- Use `toBeCloseTo()` for floating-point comparisons
 - Consider edge cases like very high/low temperatures
 
 ## Success Criteria
