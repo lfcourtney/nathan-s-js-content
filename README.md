@@ -4,18 +4,20 @@ A collection of JavaScript coding challenges designed to help you learn and prac
 
 ## Getting Started
 
-1. Clone this repository
+1. Fork this repository
+   
+2. Clone this repository
 
 ```bash
-git clone https://github.com/nldblanch/js-content.git
+git clone https://github.com/<your-username>/<repo-name>/fork
 ```
 
-2. Open in VSCode (or other editor)
-3. Install dependencies: 
+3. Open in VSCode (or other editor)
+4. Install dependencies: 
 ```bash
 npm install
 ```
-4. Run tests: 
+5. Run tests: 
 ```bash
 npm test
 ```
